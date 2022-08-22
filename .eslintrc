@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "typescript",
+    "import",
+    "prettier"
+  ],
+  "extends": [
+    "prettier",
+    "airbnb",
+    "typescript",
+    "typescript/react",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript"
+  ],
+  "rules": {
+    "import/prefer-default-export": "off",
+     "import/extensions": "off",
+  }
+}
